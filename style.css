@@ -1,0 +1,38 @@
+body {
+  margin: 0 auto;
+  width: 600px;
+  background: #fff;
+  padding: 25px;
+  min-height: 100%;
+}
+
+html {
+  margin: 0;
+  background: #ddd;
+  min-height: 100%;
+}
+
+#slides {
+  position: relative;
+}
+
+#slides div {
+  position: absolute;
+}
+
+#os-select {
+  list-style-type: none;
+  width: 600px;
+}
+
+#os-select li {
+  display:inline-block;
+  width: 160px;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+#os-select li img {
+  width: 160px;
+}
+
