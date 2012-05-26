@@ -1,38 +1,198 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: 'prociono';
+  font-weight: normal;
+  font-style: normal;
+  src: url("http://font.thoughtbot.com/prociono/prociono.eot");
+  src: local("â˜º"), url("http://font.thoughtbot.com/prociono/prociono.woff") format("woff"), url("http://font.thoughtbot.com/prociono/prociono.ttf") format("truetype"), url("http://font.thoughtbot.com/prociono/prociono.svg#webfontKbEUjPJ6") format("svg"); }
+
+a {
+  color: #222; }
+
 body {
-  margin: 0 auto;
+  background: #ffebc3;
+  color: #222;
+  font-family: prociono, georgia, palatino, times new roman, serif;
+  text-rendering: optimizeLegibility;
   width: 600px;
-  background: #fff;
-  padding: 25px;
-  min-height: 100%;
-}
+  margin: 10px 50px 75px 250px; }
+  body > header {
+    padding-top: 9px;
+    margin-bottom: 16px; }
+    body > header p {
+      font-size: .85em;
+      -o-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -ms-border-radius: 8px;
+      border-radius: 8px;
+      background-color: #F5DCA0;
+      padding: 10px;
+      text-align: left;
+      margin-bottom: 5px; }
+    body > header h1 a {
+      font-size: 52px;
+      text-decoration: none;
+      padding-left: 6px; }
+    body > header h1 img {
+      height: 70px;
+      position: relative;
+      top: 5px; }
 
-html {
-  margin: 0;
-  background: #ddd;
-  min-height: 100%;
-}
+nav.links {
+  margin-bottom: 20px; }
+  nav.links ul {
+    list-style-type: none;
+    font-size: 12px;
+    margin-bottom: 10px; }
+    nav.links ul li {
+      display: inline-block; }
+    nav.links ul li {
+      padding-left: 0px;
+      line-height: 1.5em; }
+      nav.links ul li:after {
+        content: " /"; }
+      nav.links ul li:last-child:after {
+        content: ""; }
+      nav.links ul li a {
+        text-decoration: none;
+        padding-bottom: 1px; }
+        nav.links ul li a:hover {
+          border-bottom: 1px solid; }
 
-#slides {
-  position: relative;
-}
+section#container hgroup.title {
+  margin-bottom: 20px; }
+  section#container > hgroup.title h2 {
+    position: relative;
+    left: -160px;
+    width: 140px;
+    text-align: right;
+    top: 20px; }
+    section#container hgroup.title h2:after {
+      content: "/"; }
+  section#container hgroup.title h3 {
+    font-size: 24px; }
 
-#slides div {
-  position: absolute;
-}
+section.column.thin {
+  float: left;
+  width: 280px; }
+section.column > article {
+  margin-bottom: 20px; }
+  section.column > article > header {
+    top: 32px;
+    position: relative;
+    left: -160px;
+    width: 140px; }
+    section.column > article > header h2 {
+      font-size: 24px;
+      text-align: right; }
+      section.column > article > header h2:after {
+        content: "/"; }
+  section.column > article.date > header {
+    line-height: 28px;
+    top: 28px; }
+    section.column > article.date > header h2 {
+      font-size: 16px; }
+  section.column > article.date section.presentation {
+    margin-bottom: 30px; }
+    section.column > article.date section.presentation > hgroup {
+      margin-bottom: 10px; }
+      section.column > article.date section.presentation > hgroup h2 {
+        font-size: 24px;
+        margin-bottom: 8px; }
+      section.column > article.date section.presentation > hgroup h4 {
+        font-size: 16px; }
+    section.column > article.date section.presentation p {
+      margin-top: 10px; }
+    section.column > article.date section.presentation ul {
+      list-style-type: none;
+      margin-top: 15px;
+      line-height: 1.25em;
+      font-size: .9em; }
+      section.column > article.date section.presentation ul li {
+        display: inline-block; }
+      section.column > article.date section.presentation ul li.video {
+        display: none; }
+  section.column > article > p {
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #F5DCA0;
+    padding: 10px;
+    line-height: 28px;
+    text-align: left; }
 
-#os-select {
-  list-style-type: none;
-  width: 600px;
-}
+aside.column {
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: right;
+  width: 270px;
+  -o-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #B46E32;
+  color: #F5DCA0;
+  padding: 10px; }
+  aside.column > header {
+    margin-bottom: 30px; }
+    aside.column > header h2 {
+      font-size: 36px; }
+  aside.column article.date {
+    margin-bottom: 30px; }
+    aside.column article.date:last-child {
+      margin-bottom: 0px; }
+    aside.column article.date > header {
+      margin-bottom: 10px; }
+      aside.column article.date > header h2 {
+        font-size: 28px; }
+    aside.column article.date section {
+      margin-bottom: 20px; }
+      aside.column article.date section hgroup {
+        margin-bottom: 10px; }
+        aside.column article.date section hgroup h2 {
+          font-size: 24px;
+          margin-bottom: 5px; }
+          aside.column article.date section hgroup h2 a {
+            color: #F5DCA0; }
+        aside.column article.date section hgroup h4 {
+          font-size: 14px; }
+      aside.column article.date section p {
+        line-height: 1.25em; }
 
-#os-select li {
-  display:inline-block;
-  width: 160px;
-  margin: 0px 10px;
-  text-align: center;
-}
+body.presentations-index section.column {
+  float: none; }
 
-#os-select li img {
-  width: 160px;
-}
-
+body.proposals label, body.admin-presentations label {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  padding-bottom: 5px; }
+body.proposals input[type="text"], body.proposals textarea, body.proposals input[type="url"], body.admin-presentations input[type="text"], body.admin-presentations textarea, body.admin-presentations input[type="url"] {
+  padding: 5px;
+  width: 400px;
+  font-size: 16px; }
+body.proposals input[type="text"], body.proposals input[type="url"], body.admin-presentations input[type="text"], body.admin-presentations input[type="url"] {
+  margin-bottom: 1em; }
+body.proposals input[type="submit"], body.admin-presentations input[type="submit"] {
+  background-color: #A41000;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 0px;
+  margin: 0px;
+  padding: 8px 12px; }
+  body.proposals input[type="submit"]:active, body.admin-presentations input[type="submit"]:active {
+    background-color: #A46454; }
+body.proposals textarea, body.admin-presentations textarea {
+  height: 200px;
+  margin-bottom: 1em; }
+body.proposals p, body.admin-presentations p {
+  margin-bottom: 1em; }
