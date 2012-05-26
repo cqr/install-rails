@@ -78,13 +78,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 18, ../sass/screen.scss */
 a {
-  color: #222;
+  color: #ddd;
 }
 
 /* line 22, ../sass/screen.scss */
 body {
-  background: #ffebc3;
-  color: #222;
+  background: #880000;
+  color: #ddd;
   font-family: prociono, georgia, palatino, times new roman, serif;
   text-rendering: optimizeLegibility;
   width: 600px;
@@ -308,130 +308,17 @@ section.column > article > p {
   text-align: left;
 }
 
-/* line 167, ../sass/screen.scss */
-aside.column {
-  margin-top: 24px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  float: right;
-  width: 270px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
-  background-color: #B46E32;
-  color: #F5DCA0;
-  padding: 10px;
-}
-/* line 177, ../sass/screen.scss */
-aside.column > header {
-  margin-bottom: 30px;
-}
-/* line 179, ../sass/screen.scss */
-aside.column > header h2 {
-  font-size: 36px;
-}
-/* line 184, ../sass/screen.scss */
-aside.column article.date {
-  margin-bottom: 30px;
-}
-/* line 186, ../sass/screen.scss */
-aside.column article.date:last-child {
-  margin-bottom: 0px;
-}
-/* line 190, ../sass/screen.scss */
-aside.column article.date > header {
-  margin-bottom: 10px;
-}
-/* line 192, ../sass/screen.scss */
-aside.column article.date > header h2 {
-  font-size: 28px;
-}
-/* line 196, ../sass/screen.scss */
-aside.column article.date section {
-  margin-bottom: 20px;
-}
-/* line 198, ../sass/screen.scss */
-aside.column article.date section hgroup {
-  margin-bottom: 10px;
-}
-/* line 200, ../sass/screen.scss */
-aside.column article.date section hgroup h2 {
-  font-size: 24px;
-  margin-bottom: 5px;
-}
-/* line 201, ../sass/screen.scss */
-aside.column article.date section hgroup h2 a {
-  color: #F5DCA0;
-}
-/* line 207, ../sass/screen.scss */
-aside.column article.date section hgroup h4 {
-  font-size: 14px;
-}
-/* line 211, ../sass/screen.scss */
-aside.column article.date section p {
-  line-height: 1.25em;
-}
-
-/* line 219, ../sass/screen.scss */
-body.presentations-index section.column {
-  float: none;
-}
-
-/* line 225, ../sass/screen.scss */
-body.proposals label, body.admin-presentations label {
-  font-weight: bold;
-  font-size: 16px;
-  display: block;
-  padding-bottom: 5px;
-}
-/* line 231, ../sass/screen.scss */
-body.proposals input[type="text"], body.proposals textarea, body.proposals input[type="url"], body.admin-presentations input[type="text"], body.admin-presentations textarea, body.admin-presentations input[type="url"] {
-  padding: 5px;
-  width: 400px;
-  font-size: 16px;
-}
-/* line 236, ../sass/screen.scss */
-body.proposals input[type="text"], body.proposals input[type="url"], body.admin-presentations input[type="text"], body.admin-presentations input[type="url"] {
-  margin-bottom: 1em;
-}
-/* line 239, ../sass/screen.scss */
-body.proposals input[type="submit"], body.admin-presentations input[type="submit"] {
-  background-color: #A41000;
-  color: #FFFFFF;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 14px;
-  border: 0px;
-  margin: 0px;
-  padding: 8px 12px;
-}
-/* line 248, ../sass/screen.scss */
-body.proposals input[type="submit"]:active, body.admin-presentations input[type="submit"]:active {
-  background-color: #A46454;
-}
-/* line 252, ../sass/screen.scss */
-body.proposals textarea, body.admin-presentations textarea {
-  height: 200px;
-  margin-bottom: 1em;
-}
-/* line 256, ../sass/screen.scss */
-body.proposals p, body.admin-presentations p {
-  margin-bottom: 1em;
-}
-
-/* line 261, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 #slides {
   position: relative;
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 #slides div {
   position: absolute;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #os-select {
   list-style-type: none;
   -webkit-border-radius: 8px;
@@ -444,7 +331,7 @@ body.proposals p, body.admin-presentations p {
   padding: 20px 0;
 }
 
-/* line 276, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #os-select li {
   display: inline-block;
   width: 177px;
@@ -452,19 +339,19 @@ body.proposals p, body.admin-presentations p {
   text-align: center;
 }
 
-/* line 282, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #os-select li img {
   width: 180px;
 }
 
-/* line 285, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 p {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
   border-radius: 8px;
-  background-color: #F5DCA0;
+  background-color: #400;
   padding: 10px;
   margin-bottom: 25px;
   line-height: 28px;
