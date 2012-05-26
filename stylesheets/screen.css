@@ -434,18 +434,39 @@ body.proposals p, body.admin-presentations p {
 /* line 267, ../sass/screen.scss */
 #os-select {
   list-style-type: none;
-  width: 600px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px 0;
 }
 
-/* line 271, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 #os-select li {
   display: inline-block;
-  width: 160px;
+  width: 177px;
   margin: 0px 10px;
   text-align: center;
 }
 
-/* line 277, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 #os-select li img {
-  width: 160px;
+  width: 180px;
+}
+
+/* line 285, ../sass/screen.scss */
+p {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #F5DCA0;
+  padding: 10px;
+  margin-bottom: 25px;
+  line-height: 28px;
+  text-align: left;
 }
